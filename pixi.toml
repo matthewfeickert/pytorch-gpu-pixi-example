@@ -8,6 +8,13 @@ version = "0.1.0"
 
 [tasks]
 
+detect-gpu = """
+curl -sLO https://raw.githubusercontent.com/matthewfeickert/nvidia-gpu-ml-library-test/refs/heads/main/torch_detect_GPU.py && \
+python torch_detect_GPU.py
+"""
+
+start = { depends-on = ["detect-gpu"] }
+
 [system-requirements]
 # pixi knows to ignore this for macOS
 cuda = "12.0"

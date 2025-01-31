@@ -14,8 +14,8 @@ python torch_detect_GPU.py
 
 start = { depends-on = ["detect-gpu"] }
 
+# Need to remove this for macOS
 [system-requirements]
-# pixi v0.39.5+ knows to ignore this for macOS
 cuda = "12.0"
 
 [dependencies]

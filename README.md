@@ -6,10 +6,8 @@ On a Linux (`linux-64`) or Apple silicon (`osx-arm64`) machine install a GPU ena
 
 ## Get started
 
-> [!CAUTION]
-> If on macOS you'll need to comment out or remove the `system-requirements` table given https://github.com/prefix-dev/pixi/issues/2714.
-
 1. Install [`pixi`](https://pixi.sh/)
+   * If you've already installed `pixi` make sure it is updated with `pixi self-update`.
 2. Run
 ```
 pixi install

@@ -26,3 +26,14 @@ To do a quick check that the installed PyTorch is GPU compatible and detect your
 ```
 pixi run start
 ```
+
+## Workspace creation
+
+The core of the workspace was created with the equivalent of the following Pixi commands
+
+```
+pixi init
+pixi workspace platform add linux-64 osx-arm64
+pixi workspace system-requirements add cuda 12.0
+pixi add pytorch curl
+```

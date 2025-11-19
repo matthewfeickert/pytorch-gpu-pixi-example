@@ -3,7 +3,7 @@ authors = ["Matthew Feickert <matthew.feickert@cern.ch>"]
 channels = ["conda-forge"]
 description = "Example of CUDA/MPS enabled PyTorch install with pixi"
 name = "pytorch-gpu-pixi-example"
-platforms = ["linux-64", "osx-arm64"]
+platforms = ["linux-64", "osx-arm64", "win-64"]
 requires-pixi = ">=0.42.0"
 version = "0.1.0"
 

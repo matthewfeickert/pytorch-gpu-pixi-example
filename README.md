@@ -1,7 +1,7 @@
 # Example of GPU enabled PyTorch install from conda-forge with `pixi`
 
 
-On a Linux (`linux-64`) or Apple silicon (`osx-arm64`) machine install a GPU enabled version of PyTorch and all dependencies from [conda-forge](https://conda-forge.org/) using [`pixi`](https://pixi.sh/).
+On a Linux (`linux-64`), Apple silicon (`osx-arm64`), or Windows (`win-64`) machine install a GPU enabled version of PyTorch and all dependencies from [conda-forge](https://conda-forge.org/) using [`pixi`](https://pixi.sh/).
 
 
 ## Get started
@@ -33,7 +33,7 @@ The core of the workspace was created with the equivalent of the following Pixi 
 
 ```
 pixi init
-pixi workspace platform add linux-64 osx-arm64
+pixi workspace platform add linux-64 osx-arm64 win-64
 pixi workspace system-requirements add cuda 12.0
 pixi add pytorch curl
 ```

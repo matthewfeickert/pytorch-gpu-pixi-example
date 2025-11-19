@@ -19,5 +19,5 @@ start = { depends-on = ["detect-gpu"] }
 cuda = "12.0"
 
 [dependencies]
-pytorch = ">=2.7.1,<3"
-curl = ">=8.14.1,<9"
+pytorch = ">=2.8.0,<3"
+curl = ">=8.17.0,<9"

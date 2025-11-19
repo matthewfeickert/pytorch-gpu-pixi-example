@@ -1,13 +1,14 @@
-# Example of GPU enabled PyTorch install from conda-forge with `pixi`
+# Example of GPU enabled PyTorch install from conda-forge with Pixi
 
 
-On a Linux (`linux-64`), Apple silicon (`osx-arm64`), or Windows (`win-64`) machine install a GPU enabled version of PyTorch and all dependencies from [conda-forge](https://conda-forge.org/) using [`pixi`](https://pixi.sh/).
+On a Linux (`linux-64`), Apple silicon (`osx-arm64`), or Windows (`win-64`) machine install a GPU enabled version of PyTorch and all dependencies from [conda-forge](https://conda-forge.org/) using [Pixi](https://pixi.sh/).
 
 
 ## Get started
 
-1. Install [`pixi`](https://pixi.sh/)
-   * If you've already installed `pixi` make sure it is updated with `pixi self-update`.
+1. Install [Pixi](https://pixi.sh/)
+   * If you've already installed Pixi make sure it is updated with `pixi self-update`.
+   * Recommended: Install [shell autocompletions](https://pixi.sh/latest/installation/#autocompletion).
 2. Run
 ```
 pixi install
